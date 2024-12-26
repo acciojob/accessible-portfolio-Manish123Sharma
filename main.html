@@ -8,14 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Manish Kumar Sharma</h1>
-	<nav>Navigation Bar</nav>
-	<img alt = "Car Image" style = "height: 200px" src = "https://jlr.scene7.com/is/image/jlr/L66325GL_303103289_077">
-    <ul>
-		<li>Traveling</li>
-		<li>Listening Music</li>
-		<li>Playing Video Games</li>
-	</ul>
+	<header>
+        <h1 role="heading">Manish Kumar Sharma - Full Stack Developer</h1>
+    </header>
+	<nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	<section id="about">
+        <img role="img" src="https://jlr.scene7.com/is/image/jlr/L66325GL_303103289_077" alt="Photo of Manish Kumar Sharma" width="200">
+        <p>I am a Full Stack Developer with expertise in web and mobile application development, passionate about creating accessible and responsive interfaces.</p>
+    </section>
+	<section id="projects">
+        <h2 role="heading">Key Projects</h2>
+        <ul role="list">
+            <li role="listitem">E-commerce Platform: A responsive web application for online shopping.</li>
+            <li role="listitem">Myntra Clone: A pixel-perfect HTML and CSS project.</li>
+            <li role="listitem">Mobile App: A Flutter-based application with Firebase integration.</li>
+        </ul>
+    </section>
+	<footer id="contact">
+        <h2 role="heading">Contact Me</h2>
+        <p>Email: <a href="mailto:manish@example.com">manish@example.com</a></p>
+        <p>Phone: +91 9812258830</p>
+    </footer>
 	<script type="text/javascript" src="./script.js">
 </script>
 
